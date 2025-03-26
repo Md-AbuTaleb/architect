@@ -1,0 +1,182 @@
+.header-section{
+    box-shadow: 0 0 30px 0 rgba(128, 128, 128, .2);
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    background-color: #fff;
+}
+.header-logo{}
+.header-logo a{
+    display: inline-block;
+    text-decoration: none;
+}
+.header-logo a h1 {
+    letter-spacing: 6px;
+    line-height: 32px;
+    color: #0087d2;
+    margin-bottom: 0;
+    font-size: 1.6rem;
+    padding: 10px 0px;
+}
+.header-logo a h1 span {
+    font-weight: 200;
+    color: orange;
+}
+
+.primary-menu{}
+.primary-menu ul{
+    margin-bottom: 0;
+}
+.primary-menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.primary-menu ul li a {
+    display: inline-block;
+    padding: 0px 25px;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 52px;
+    background: #fff;
+}
+.primary-menu ul li:hover > a{
+    background-color: orange;
+    color: #fff;
+}
+/* Banner-section */
+.banner-section{
+    background: url(./image/banner-10.jpg) no-repeat center center; 
+    background-size: cover;
+    padding: 220px 0
+}
+.banner-section h1 {
+    font-weight: 600;
+    color: #fff;
+}
+.banner-section h1 span {
+	background-color: rgba(23, 25, 26, .4);
+    padding: 10px 22px;
+    font-weight: 700;
+}
+
+/* project section */
+.pro-title {
+    border-bottom: 1px solid #eeee;
+}
+.pro-title h1{
+
+}
+
+.pro-items{}
+.pro-desk{
+    position: relative;
+}
+.pro-desk img{
+    max-width: 100%;
+    height: auto;
+}
+.pro-desk h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background: black;
+    color: #fff;
+    padding: 7px;
+    font-size: 23px;
+}
+
+/* about-section */
+.about-title{}
+.about-title h1 {
+    font-weight: 400;
+    border-bottom: 1px solid #dddd;
+    padding-bottom: 15px;
+}
+.about-title p {
+    font-size: 20px;
+    padding: 20px 0;
+    line-height: 1.8em;
+    color: #767676;
+    text-align: justify;
+}
+
+/* card-section */
+.card-body h5 {
+    font-weight: 400;
+    color: #767676;
+}
+.card-body p {
+    font-size: 18px;
+}
+
+/* contact start */
+.contact-title h1 {
+    font-weight: 400;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.c-form p {
+    font-size: 24px;
+}
+
+
+
+/* footer */
+.footer-section p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+/* responsive */
+@media (max-width: 992px) {
+    
+    .header-logo a h1 {
+        font-size: 20px;
+    }
+    .primary-menu ul li a {
+        padding: 0px 8px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .banner-section {
+        padding: 450px 0 !important;
+    }
+    .banner-section h1 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .header-logo{
+        width: 100%;
+        text-align: center !important;
+    }
+    .header-logo a h1 {
+    padding: 5px 0;
+    line-height: 25px;
+    letter-spacing: 4px;
+}
+    .primary-menu{
+        width: 100%;
+        text-align: center !important;
+    }
+    .primary-menu ul {
+        padding-left: 0;
+    }
+    .primary-menu ul li a {
+		padding: 0 13px !important;
+		line-height: 30px;
+		margin-bottom: 5px;
+	}
+    .banner-section {
+        padding: 125px 0 !important;
+    }
+    .banner-section h1 {
+        position: relative;
+        top: 80px;
+    }
+}
